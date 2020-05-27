@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>830</width>
+    <width>737</width>
     <height>566</height>
    </rect>
   </property>
@@ -60,7 +60,7 @@
   </widget>
   <widget class="QPlainTextEdit" name="plainTextEdit_2">
    <property name="enabled">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="geometry">
     <rect>
@@ -79,25 +79,6 @@
     <string notr="true">QPlainTextEdit{
 	background-color: white;
 }</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>720</x>
-     <y>180</y>
-     <width>91</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Отправить 
-сообщение</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -157,25 +138,6 @@
     <string>Получатель Б</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>720</x>
-     <y>370</y>
-     <width>91</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Проверить 
-ЭЦП</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
@@ -231,8 +193,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Очистить
-консоль</string>
+    <string>Очистить</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
